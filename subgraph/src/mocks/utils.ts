@@ -16,6 +16,7 @@ export function createMockGetter(
   funcSignature: string,
   returns: ethereum.Value[]
 ): void {
+  // aaaq
   createMockedFunction(
     Address.fromString(contractAddress),
     funcName,
